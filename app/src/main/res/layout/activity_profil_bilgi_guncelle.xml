@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil_bilgi_guncelle"
+    android:background="#3D5E3D"
+    >
+
+
+    <Button
+        android:id="@+id/kayit_ol_foto_ekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/girisyap_buton_sekil"
+        android:backgroundTint="#8F8E8E"
+        android:drawableRight="@drawable/kayit_ol_foto_ekle"
+        android:fontFamily="sans-serif"
+        android:hint="Fotoğrafı Güncelle"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:backgroundTint="#8F8E8E"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:hint="Güncelle"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilFoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="144dp"
+        android:src="#FF719171"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+
+
+    <EditText
+        android:id="@+id/etKayitMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:drawableLeft="@drawable/kullanici_adi_girisi"
+        android:drawablePadding="15dp"
+        android:hint="Mail"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteY="327dp" />
+
+    <EditText
+        android:id="@+id/etKayitOl_sehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:drawableLeft="@drawable/sifre_bilgi_foto"
+        android:drawablePadding="15dp"
+        android:hint="Şehir"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/etKayitSifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:drawableLeft="@drawable/sifre_bilgi_foto"
+        android:drawablePadding="15dp"
+        android:hint="Şifre"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <EditText
+        android:id="@+id/etKayitKullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:drawableLeft="@drawable/kullanici_adi_girisi"
+        android:drawablePadding="15dp"
+        android:hint="Kullanıcı Adı"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="242dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

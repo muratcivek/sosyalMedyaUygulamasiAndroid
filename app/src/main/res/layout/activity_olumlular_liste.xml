@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".olumlular_liste"
+    android:orientation="vertical"
+    android:background="#819581"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kullaniciaraEditText"
+        android:text="Olumlu İşaretleyenler"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:textAlignment="center"
+        android:textSize="26sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/olumlularListeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+  </LinearLayout>

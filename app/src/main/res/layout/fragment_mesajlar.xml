@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_bildirim_sayfasi"
+    android:orientation="vertical"
+    android:background="#819581">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kullaniciaraEditText"
+        android:text="Mesajlar"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:background="@drawable/girisyap_buton_sekil"
+        android:textAlignment="center"
+        android:textSize="33sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/KullaniciaraRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

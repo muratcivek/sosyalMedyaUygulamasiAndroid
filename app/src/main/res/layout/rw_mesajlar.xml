@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#819581">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/akisYorumFoto"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/kullanici_adi_girisi"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İsim Soyisim"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/kullaniciara_Kullanici"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size mesaj gönderdi."
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sil"
+           android:layout_gravity="center"
+            android:scaleType="fitEnd"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

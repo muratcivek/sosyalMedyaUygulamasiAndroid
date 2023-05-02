@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994584594299",
+    "project_id": "sosyalmedyacamping",
+    "storage_bucket": "sosyalmedyacamping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994584594299:android:53bfd73b93aae012fadfde",
+        "android_client_info": {
+          "package_name": "com.muratcivek.kampsosyalmedya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994584594299-c4ijtvr0eauvnhsmld8h3qnrd8p4cnpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFf26rUJjW92mqXCOnfOzUt9PhvfQnqAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994584594299-c4ijtvr0eauvnhsmld8h3qnrd8p4cnpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

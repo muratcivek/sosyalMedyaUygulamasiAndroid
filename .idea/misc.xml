@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/murat/Desktop/deneme/kampSosyalMedya/app/src/main/res/layout/activity_mesajlar_icerik.xml" value="0.1875" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/acik_ton_buton_sekli.xml" value="0.15043859649122807" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/anasayfa.xml" value="0.18201754385964913" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/arama.xml" value="0.16798245614035087" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/aramiza_katil.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ayarlar_tasarim.xml" value="0.12017543859649123" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/begenme.xml" value="0.16842105263157894" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/begenmeme.xml" value="0.16842105263157894" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/girisyap_buton_sekil.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/gonder.xml" value="0.1482456140350877" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/hesap_sil.xml" value="0.18201754385964913" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_baseline_add_to_photos_24.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.16140350877192983" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_baseline_how_to_reg_24.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.18201754385964913" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_baseline_more_horiz_24.xml" value="0.16798245614035087" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/kayitOl_foto_ekle.xml" value="0.10694444444444444" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/kayit_ol_foto_ekle.xml" value="0.16140350877192983" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/kayit_ol_profil_fotosu_ekleme.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/kullanici_adi_girisi.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/mesajlar.xml" value="0.17965367965367965" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/paylas.xml" value="0.16842105263157894" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/profil_sayfasi_sekil.xml" value="0.16622807017543859" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/sayfa_bilgi_tasarim.xml" value="0.14692982456140352" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/sifre_bilgi_foto.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/sifremi_sifirla.xml" value="0.16885964912280702" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/sifremi_unuttum.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/sil.xml" value="0.13421052631578947" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/takip_et_sekil.xml" value="0.18201754385964913" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/drawable/yorum.xml" value="0.16798245614035087" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-anydpi/activity_giris_sayfasi.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-hdpi/activity_giris_sayfasi.xml" value="0.5" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-ldpi/activity_giris_sayfasi.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-mdpi/activity_giris_sayfasi.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-nodpi/activity_giris_sayfasi.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-normal/activity_giris_sayfasi.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-xhdpi/activity_giris_sayfasi.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-xxhdpi/activity_giris_sayfasi.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-xxhdpi/activity_kayit_ol_sayfasi.xml" value="0.15" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout-xxxhdpi/activity_giris_sayfasi.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/acitivity_giris_sayfasi.xml" value="0.1" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_ana_sayfa.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_ayartar_tasarim.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_bildirim_icerigi.xml" value="0.25" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_giris_sayfasi.xml" value="0.18" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_karsi_profil_sayfasi.xml" value="0.21" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_kayit_ol_sayfasi.xml" value="0.25" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_mesajlar_icerik.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_olumlular_liste.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_olumsuzlar_liste.xml" value="0.16842105263157894" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_olumsuzlar_lite.xml" value="0.16842105263157894" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_paylasim_yapma.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_profil_bilgi_guncelle.xml" value="0.21" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_sifremi_unuttum.xml" value="0.25" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_takip_edilenler_liste.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_takipciler_liste.xml" value="0.11754385964912281" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_yorumlar_liste.xml" value="0.21" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/asddf.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/content_paylasim_yapma.xml" value="0.1482456140350877" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/deneme.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_akis_sayfasi.xml" value="0.1" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_ana_sayfa.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_bildirim_sayfasi.xml" value="0.1" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_kullanici_ara.xml" value="0.11973684210526316" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_kullanici_ara_sayfasi.xml" value="0.1" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_mesajlar.xml" value="0.1206140350877193" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_profil_sayfasi.xml" value="0.18" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/gonderiler.xml" value="0.25" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/kullanici_ara.xml" value="0.15043859649122807" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/kullaniciyi_ara.xml" value="0.18" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/paylas_cikacak_ekran.xml" value="0.15526315789473685" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/paylas_gelecek_ekran.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/profil_sayfasi_tasarimi.xml" value="0.15263157894736842" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_bildirimler.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_gonderiler.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_karsi_profil_sayfasi.xml" value="0.25" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_kullaniciyi_ara.xml" value="0.35304990757855825" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar.xml" value="0.5" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar_icerik.xml" value="0.15526315789473685" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar_icerik_sag.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar_icerik_sol.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_olumlular_liste.xml" value="0.5" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_olumsuzlar.xml" value="0.16842105263157894" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_olumsuzlar_liste.xml" value="0.10054347826086957" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_profil_sayfasi.xml" value="0.25" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_profilgonderiler.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_takip_edilenler.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_takipciler.xml" value="0.18" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_yorumlar_liste.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/yorum_ekle_gelecek_ekran.xml" value="0.33" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/menu/anasayfa_menu.xml" value="0.22" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/menu/popup_gonderi_daha_fazla.xml" value="0.15526315789473685" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

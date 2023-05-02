@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bildirim_icerigi"
+    android:orientation="vertical"
+    android:background="#94A694">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="20dp"
+        android:elevation="3dp"
+        app:contentPadding="5dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#819581"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/akisYorumFoto"
+                    android:layout_height="60dp"
+                    android:layout_width="60dp"
+                    android:background="#819581"
+                    android:src="@drawable/kullanici_adi_girisi"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/akisGonderiAd"
+                        android:text="İsim Soyisim"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/akisGonderiKonum"
+                        android:text="Konum"
+                        android:textStyle="bold"
+                        android:textColor="#587591"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/akisGonderiTarih"
+                        android:text="Tarih"
+                        android:textSize="15sp"
+                        android:textAlignment="viewEnd"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/akisGonderiBaslik"
+                android:text="Başlık"
+                android:textSize="19sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/akisGonderiDetay"
+                android:text="Detay"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:id="@+id/akisGonderiFoto"/>
+
+            <TextView
+                android:id="@+id/akisGonderiOlumlu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="1127 Olumlu"
+                android:textAllCaps="false"
+                android:textColor="#2E2E2E"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/akisGonderiOlumsuz"
+                android:text="80 Olumsuz"
+                android:textColor="#2E2E2E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/akisGonderiYorum"
+                android:text="72 Yorum"
+                android:textColor="#2E2E2E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/akisGonderiPaylasim"
+                android:text="10 Paylaşım"
+                android:textColor="#2E2E2E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+
+            <ImageButton
+                android:id="@+id/yorumEkle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/yorum"
+                android:src="@drawable/yorum"
+                android:layout_gravity="right"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

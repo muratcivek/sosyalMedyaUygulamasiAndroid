@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ayartar_tasarim"
+    android:orientation="vertical"
+    android:background="#819581"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayarlar"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#CEDDC0"
+
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profil bilgilerini güncelle"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/kullanici_adi_girisi"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çıkış yap"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/cikis_yap"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesabımı sil"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/hesap_sil"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>
