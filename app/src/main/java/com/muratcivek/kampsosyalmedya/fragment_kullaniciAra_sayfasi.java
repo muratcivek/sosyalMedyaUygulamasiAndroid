@@ -50,7 +50,6 @@ public class fragment_kullaniciAra_sayfasi extends Fragment {
         storage = FirebaseStorage.getInstance();
         storageRef = storage.getReference();
         db = FirebaseFirestore.getInstance();
-
         db.collection("KullaniciKayitBilgi").get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(Task<QuerySnapshot> task) {

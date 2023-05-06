@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -57,7 +58,6 @@ private RecyclerView recyclerView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_karsi_profil_sayfasi);
-
         Intent intent = getIntent();
         gelenMail = intent.getStringExtra("mail");
 
@@ -67,11 +67,8 @@ private RecyclerView recyclerView;
 
         recyclerView = findViewById(R.id.gonderilerRecyclerView);
         gonderiler = new ArrayList<>();
-
-
-        profilKullaniciAdi = findViewById(R.id.kullaniciAd);
+profilKullaniciAdi = findViewById(R.id.kullaniciAd);
         ProfilFoto=findViewById(R.id.profilSayfaProfilFoto);
-
         docRef = db.collection("KullaniciKayitBilgi").document(gelenMail);
         docRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override

@@ -1,46 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#819581">
+        android:background="#819581"
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/akisYorumFoto"
-            android:layout_height="50dp"
-            android:layout_width="50dp"
-            android:src="@drawable/kullanici_adi_girisi"
-
-            />
+        >
 
 
-       <LinearLayout
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:orientation="vertical">
-           <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
 
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="İsim Soyisim"
-               android:textSize="18sp"
-               android:textColor="@color/white"
-               />
-           <TextView
-               android:id="@+id/kullaniciara_Kullanici"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Paylaştığınız gönderiyi beğendi."
-               android:textSize="20sp"
-               android:textColor="@color/white"
-               />
+            <TextView
+                android:textColor="#424141"
+                android:textStyle="bold"
+android:id="@+id/bildirimMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Mail"
+                android:textSize="18sp" />
 
-       </LinearLayout>
+            <TextView
+                android:id="@+id/bildirimDetay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="detay"
+                android:textColor="@color/white"
+
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/bildirim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="paylaştığınız gönderiyi beğendi."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
 
 
+                />
+
+        </LinearLayout>
 
 
     </LinearLayout>

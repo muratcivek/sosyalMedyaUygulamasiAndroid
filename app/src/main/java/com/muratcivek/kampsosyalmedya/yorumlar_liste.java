@@ -46,8 +46,9 @@ String gelenKullaniciAdi, gelenDetay, yorumYazisi,email, gonderiSahibiMail,eskiY
 FirebaseFirestore db;
 EditText yorum;
 Button yorumYap;
+String gonderiyiPaylasanMail,gonderiyiPaylasanKullaniciAd;
     Long tarih;
-    Map<String, Object> yorumBilgileri;
+    Map<String, Object> yorumBilgileri, bildirimler;
     FirebaseUser kullanici;
     DocumentReference docRef;
     String emaill,detay,gelenYorumSayiGuncel;
@@ -85,6 +86,8 @@ Button yorumYap;
                     if (task.isSuccessful()) {
                         for (QueryDocumentSnapshot document : task.getResult()) {
                             String yorumsayisi = document.get("Yorum").toString();
+                            gonderiyiPaylasanMail = document.get("mail").toString();
+                            gonderiyiPaylasanKullaniciAd = document.get("kullanici adi").toString();
                             int yeniyorum = Integer.parseInt(yorumsayisi)+1;
                             gelenYorumSayiGuncel =Integer.toString(yeniyorum);
                         }
@@ -112,6 +115,7 @@ Button yorumYap;
                  Date now = new Date();
                   tarih=  now.getTime();
                  yorumBilgileri = new HashMap<>();
+                 bildirimler = new HashMap<>();
 
                  yorumBilgileri.put("yorumDetay", yorumYazisi);
                  yorumBilgileri.put("gonderiDetay", gelenDetay);
@@ -125,6 +129,24 @@ Button yorumYap;
                          .set(yorumBilgileri).addOnSuccessListener(new OnSuccessListener<Void>() {
                      @Override
                      public void onSuccess(Void unused) {
+                        //Bildirim kodları buraya sıralanacak.
+                        bildirimler.put("gonderiDetay", gelenDetay);
+                        bildirimler.put("Tarih",tarih);
+                        bildirimler.put("email",email);
+                         bildirimler.put("Yorum",yorumYazisi);
+                         bildirimler.put("Bildirim","içerikli gönderine yorum bıraktı.");
+                        bildirimler.put("Paylasan Mail", gonderiyiPaylasanMail);
+                        bildirimler.put("Paylasan Kullanici Ad", gonderiyiPaylasanKullaniciAd);
+
+                        db.collection("bildirimler").document("yorum bildirimleri")
+                                .collection(gonderiyiPaylasanMail).document(yorumYazisi).set(bildirimler)
+                                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        Log.d(TAG, "onSuccess: " + " tamamlandı.");
+                                    }
+                                });
+
 
 
                          db.collection("KullaniciKayitBilgi")
