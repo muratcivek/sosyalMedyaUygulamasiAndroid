@@ -1,5 +1,8 @@
 package com.muratcivek.kampsosyalmedya;
 
+import static android.content.ContentValues.TAG;
+
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -7,6 +10,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -51,7 +55,7 @@ public class fragment_profil_sayfasi extends Fragment {
     FirebaseStorage storage ;
     StorageReference storageRef ;
     DocumentReference docRef;
-    String email;
+    String email,olumlu,yorum;
     Uri gonderilecekUriProfil;
     FirebaseUser kullanici;
     String baslik,detay,konum,kullaniciAdi;
@@ -112,9 +116,12 @@ public class fragment_profil_sayfasi extends Fragment {
                                 public void onComplete(Task<QuerySnapshot> task) {
                                     for (QueryDocumentSnapshot document : task.getResult()) {
                                         detay = document.get("Detay").toString();
+                                        olumlu= document.get("Olumlu").toString();
+                                        yorum= document.get("Yorum").toString();
 
 
-                                        ProfilGonderiModel profilGonderiModel= new ProfilGonderiModel(detay, kullaniciAdi);
+
+                                        ProfilGonderiModel profilGonderiModel= new ProfilGonderiModel(detay, kullaniciAdi,olumlu,yorum);
                                         gonderi.add(profilGonderiModel);
                                     }
 
@@ -122,6 +129,25 @@ public class fragment_profil_sayfasi extends Fragment {
                                     LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
                                     recyclerView.setLayoutManager(linearLayoutManager);
                                     recyclerView.setAdapter(profilGonderiAdapter);
+
+                                    profilGonderiAdapter.setonOlumluClickListener(new profilGonderiAdapter.onItemClickListener() {
+                                        @Override
+                                        public void onOlumluItemClick(ProfilGonderiModel profilGonderiModel, int position, TextView textView) {
+                                    Toast.makeText(getContext(),"Kendi gönderinize tepki veremezsiniz.",Toast.LENGTH_LONG).show();
+
+                                        }
+
+                                        @Override
+                                        public void onYorumItemClick(ProfilGonderiModel profilGonderiModel, int position, TextView textView) {
+                                            Intent intent = new Intent(getContext(), yorumlar_liste.class);
+                                            intent.putExtra("kullaniciAdi",profilGonderiModel.kullaniciAdi);
+                                            intent.putExtra("detay",profilGonderiModel.detay);
+
+
+                                            startActivity(intent);
+
+                                        }
+                                    });
                                 }
                             });
 

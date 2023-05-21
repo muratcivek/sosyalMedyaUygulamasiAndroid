@@ -43,6 +43,7 @@ public class bildirimAdapter  extends RecyclerView.Adapter<bildirimAdapter.bildi
         holder.uc.setText(bildirim);
     }
 
+
     @Override
     public int getItemCount() {
         return bildirimListe.size();

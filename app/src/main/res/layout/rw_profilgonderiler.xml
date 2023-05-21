@@ -46,9 +46,10 @@
             android:id="@+id/akisGonderiDetay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Detay"
             android:layout_marginTop="21dp"
             android:layout_marginBottom="20dp"
+            android:password="false"
+            android:text="Detay"
             android:textSize="18sp" />
 <LinearLayout
     android:layout_width="match_parent"
@@ -56,11 +57,11 @@
     android:orientation="horizontal"
     android:gravity="center">
     <TextView
-        android:id="@+id/akisGonderiOlumlu"
+        android:id="@+id/profilGonderiOlumlu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:text="1127 Olumlu   "
+        android:text="GUNCELLENECEK   "
         android:layout_gravity="right"
         android:textAllCaps="false"
         android:textColor="#2E2E2E"
@@ -68,20 +69,10 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/akisGonderiOlumsuz"
+        android:id="@+id/profilGonderiYorum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="80 Olumsuz   "
-        android:gravity="right"
-        android:textColor="#2E2E2E"
-        android:textSize="16sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/akisGonderiYorum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="72 Yorum"
+        android:text="GUNCELLENECEK"
         android:textColor="#2E2E2E"
         android:gravity="right"
         android:textSize="16sp"
@@ -89,16 +80,6 @@
 
 
 </LinearLayout>
-
-
-
-        <ImageButton
-            android:id="@+id/yorumEkle"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:background="@drawable/yorum"
-            android:src="@drawable/yorum" />
 
 
     </LinearLayout>

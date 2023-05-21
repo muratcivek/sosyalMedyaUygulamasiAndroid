@@ -22,6 +22,7 @@ public class profilGonderiAdapter extends RecyclerView.Adapter<profilGonderiAdap
 
     List<ProfilGonderiModel> gonderi;
     Context context;
+    private onItemClickListener listener;
 
     public profilGonderiAdapter(List<ProfilGonderiModel> gonderi) {
         this.gonderi = gonderi;
@@ -39,13 +40,15 @@ public class profilGonderiAdapter extends RecyclerView.Adapter<profilGonderiAdap
 
         String detay = gonderi.get(position).getDetay().toString();
         String kullaniciAdi = gonderi.get(position).getKullaniciAdi().toString();
-
-
+        String olumlu = gonderi.get(position).getOlumlu().toString();
+        String yorum = gonderi.get(position).getYorum().toString();
 
 
 
         holder.detay.setText(detay);
         holder.kullaniciAdi.setText(kullaniciAdi);
+        holder.olumlu.setText(olumlu + " Olumlu   ");
+        holder.yorum.setText(yorum+ " Yorum");
 
 
     }
@@ -59,12 +62,36 @@ public class profilGonderiAdapter extends RecyclerView.Adapter<profilGonderiAdap
 
         TextView detay;
         TextView kullaniciAdi;
+        public TextView olumlu;
+        public TextView yorum;
 
         public tutucu(View itemView) {
             super(itemView);
 
             detay = itemView.findViewById(R.id.akisGonderiDetay);
             kullaniciAdi=itemView.findViewById(R.id.akisGonderikullaniciAd);
+            olumlu = itemView.findViewById(R.id.profilGonderiOlumlu);
+            yorum = itemView.findViewById(R.id.profilGonderiYorum);
+
+            olumlu.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int position = getAdapterPosition();
+                    if(listener!=null && position!=RecyclerView.NO_POSITION){
+                        listener.onOlumluItemClick(gonderi.get(position),position,olumlu);
+                    }
+                }
+            });
+
+            yorum.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int position = getAdapterPosition();
+                    if(listener!=null && position!=RecyclerView.NO_POSITION){
+                        listener.onYorumItemClick(gonderi.get(position),position,olumlu);
+                    }
+                }
+            });
 
 
 
@@ -73,4 +100,17 @@ public class profilGonderiAdapter extends RecyclerView.Adapter<profilGonderiAdap
         }
     }
 
+    public interface onItemClickListener{
+        void onOlumluItemClick(ProfilGonderiModel profilGonderiModel, int position, TextView textView);
+        void onYorumItemClick (ProfilGonderiModel profilGonderiModel, int position, TextView textView);
+
+    }
+    public void  setonOlumluClickListener(profilGonderiAdapter.onItemClickListener listener){
+      this.listener=listener;
+
+    }
+    public void  setonYorumItemClickListener(profilGonderiAdapter.onItemClickListener listener){
+        this.listener = listener;
+
+    }
 }
