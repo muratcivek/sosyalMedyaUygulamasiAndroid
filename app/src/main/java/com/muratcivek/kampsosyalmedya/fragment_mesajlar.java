@@ -41,7 +41,7 @@ import java.util.Map;
 
 
 public class fragment_mesajlar extends Fragment {
-
+//genel bir mesajlaşma sohbet alanı oluşturma
 
 Button btnMesajGonder;
 EditText edtMesaj;
