@@ -19,6 +19,7 @@
         android:textAlignment="center"
         android:textSize="33sp" />
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/bildirimRecyclerView"
         android:layout_width="match_parent"

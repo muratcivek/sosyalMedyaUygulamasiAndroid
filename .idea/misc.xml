@@ -55,7 +55,7 @@
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_karsi_profil_sayfasi.xml" value="0.21" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_kayit_ol_sayfasi.xml" value="0.25" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_mesajlar_icerik.xml" value="0.2" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_mesajlar_icerik.xml" value="0.1" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_olumlular_liste.xml" value="0.2" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_olumsuzlar_liste.xml" value="0.16842105263157894" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/activity_olumsuzlar_lite.xml" value="0.16842105263157894" />
@@ -73,7 +73,7 @@
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_bildirim_sayfasi.xml" value="0.1" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_kullanici_ara.xml" value="0.11973684210526316" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_kullanici_ara_sayfasi.xml" value="0.1" />
-        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_mesajlar.xml" value="0.1206140350877193" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_mesajlar.xml" value="0.18" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/fragment_profil_sayfasi.xml" value="0.18" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/gonderiler.xml" value="0.25" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/kullanici_ara.xml" value="0.15043859649122807" />
@@ -85,7 +85,7 @@
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_gonderiler.xml" value="0.22" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_karsi_profil_sayfasi.xml" value="0.25" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_kullaniciyi_ara.xml" value="0.4730290456431535" />
-        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar.xml" value="0.5" />
+        <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar.xml" value="0.22" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar_icerik.xml" value="0.15526315789473685" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar_icerik_sag.xml" value="0.33" />
         <entry key="..\:/Users/murat/Desktop/kampSosyalMedya/app/src/main/res/layout/rw_mesajlar_icerik_sol.xml" value="0.33" />

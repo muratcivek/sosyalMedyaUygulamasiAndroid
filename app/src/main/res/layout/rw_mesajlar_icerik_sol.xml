@@ -13,23 +13,32 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
 
 
         >
-        <de.hdodenhof.circleimageview.CircleImageView
-
-            android:layout_height="60dp"
-            android:layout_width="60dp"
-            android:layout_gravity="center"
-            android:src="@drawable/kullanici_adi_girisi"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Karşıdaki kullanıcı size şuan yazılan mesajın içeriği ile birlikte bir mesaj göndermek istiyor."
-            android:textSize="19sp"
-            android:textColor="#F6F8F5"/>
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:text="email"
+            android:textStyle="bold"
+            android:textColor="#CBDACC"
+android:id="@+id/mesajlarMail"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/mesajlarDetay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kullanıcı kendi mesajını gönderdiğinde bu şekilde gözükecek."
+            android:textAlignment="viewStart"
+
+            android:textColor="#F6F8F5"
+            android:textSize="19sp" />
+
 
     </LinearLayout>
 

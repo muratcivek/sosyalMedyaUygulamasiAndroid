@@ -13,23 +13,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
 
 
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            android:text="email"
+            android:textStyle="bold"
+
+            android:id="@+id/mesajlarMail"
+
+            android:textColor="#CBDACC"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="19sp"
+            android:gravity="center"
+
+            android:id="@+id/mesajlarDetay"
+
             android:text="Kullanıcı kendi mesajını gönderdiğinde bu şekilde gözükecek."
             android:textColor="#F6F8F5"
             android:layout_weight="1"/>
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/akisYorumFoto"
-            android:layout_height="60dp"
-            android:layout_width="60dp"
-            android:layout_gravity="center"
-            android:src="@drawable/kullanici_adi_girisi"/>
+
 
 
 

@@ -1,28 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment_bildirim_sayfasi"
     android:orientation="vertical"
-    android:background="#819581">
+    android:background="#819581"
+    >
 
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/kullaniciaraEditText"
-        android:text="Mesajlar"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/white"
-        android:background="@drawable/girisyap_buton_sekil"
-        android:textAlignment="center"
-        android:textSize="33sp" />
+        android:layout_gravity="bottom"
+        android:background="@drawable/profil_sayfasi_sekil"
+        android:orientation="horizontal">
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:id="@+id/mesaj"
+            android:hint="   Bir şeyler yaz..."
+            android:textColor="#3B3C3B"
+            android:textSize="23sp"
+           />
+
+        <Button
+            android:id="@+id/mesajGonder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/gonder"
+            />
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/KullaniciaraRecyclerView"
+        android:id="@+id/mesajlarRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"></androidx.recyclerview.widget.RecyclerView>
+
 
 </LinearLayout>

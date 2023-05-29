@@ -12,18 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/anaSayfa_frameLayout"/>
-   
+
     <com.etebarian.meowbottomnavigation.MeowBottomNavigation
+        android:id="@+id/anaSayfa_meowBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/anaSayfa_meowBottom"
         android:layout_alignParentBottom="true"
-        app:mbn_circleColor="@color/black"
         app:mbn_backgroundBottomColor="#ECE8E8"
-        app:mbn_selectedIconColor = "#ece8e8"
-        app:mbn_defaultIconColor="@color/black"
+        app:mbn_circleColor="@color/black"
+        app:mbn_countBackgroundColor="#f44336"
         app:mbn_countTextColor="#ece8e8"
-app:mbn_countBackgroundColor="#f44336"/>
+        app:mbn_defaultIconColor="@color/black"
+        app:mbn_selectedIconColor="#ece8e8"
+       />
 
 
 </RelativeLayout>

@@ -52,7 +52,9 @@
             android:exported="true" />
         <activity
             android:name=".ana_sayfa"
-            android:exported="true" />
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan"
+            />
         <activity
             android:name=".kayit_ol_sayfa"
             android:exported="true" />
