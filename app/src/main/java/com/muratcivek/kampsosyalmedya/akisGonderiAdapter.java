@@ -21,25 +21,20 @@ public class akisGonderiAdapter  extends RecyclerView.Adapter<akisGonderiAdapter
     public akisGonderiAdapter(List<akisGonderiModel> gonderi) {
         this.gonderi = gonderi;
     }
-
     public akisGonderiAdapter.tutucu onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new akisGonderiAdapter.tutucu(LayoutInflater.from(parent.getContext()).inflate(R.layout.rw_gonderiler,parent,false));
+        return new akisGonderiAdapter.tutucu(LayoutInflater
+                .from(parent.getContext()).inflate(R.layout.rw_gonderiler,parent,false));
     }
     public void onBindViewHolder(akisGonderiAdapter.tutucu holder, int position) {
-
         String detay = gonderi.get(position).getDetay().toString();
         String kullaniciAdi = gonderi.get(position).getKullaniciAdi().toString();
         String olumluSayi = gonderi.get(position).getOlumluSayi();
         String yorumSayi = gonderi.get(position).getYorumSayi();
-
-
         holder.detay.setText(detay);
         holder.kullaniciAdi.setText(kullaniciAdi);
         holder.olumlu.setText(olumluSayi + " Olumlu   ");
         holder.yorum.setText(yorumSayi + " Yorum");
     }
-
-
     public int getItemCount() {
         return gonderi.size();
     }

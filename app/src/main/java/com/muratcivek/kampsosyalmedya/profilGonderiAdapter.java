@@ -19,32 +19,23 @@ import java.util.List;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class profilGonderiAdapter extends RecyclerView.Adapter<profilGonderiAdapter.tutucu> {
-
     List<ProfilGonderiModel> gonderi;
     Context context;
     private onItemClickListener listener;
-
     public profilGonderiAdapter(List<ProfilGonderiModel> gonderi) {
         this.gonderi = gonderi;
     }
-
     @Override
     public tutucu onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new tutucu(LayoutInflater.from(parent.getContext()).inflate(R.layout.rw_profilgonderiler,parent,false));
+        return new tutucu(LayoutInflater
+                .from(parent.getContext()).inflate(R.layout.rw_profilgonderiler,parent,false));
     }
-
     @Override
     public void onBindViewHolder(tutucu holder, int position) {
-
-
-
         String detay = gonderi.get(position).getDetay().toString();
         String kullaniciAdi = gonderi.get(position).getKullaniciAdi().toString();
         String olumlu = gonderi.get(position).getOlumlu().toString();
         String yorum = gonderi.get(position).getYorum().toString();
-
-
-
         holder.detay.setText(detay);
         holder.kullaniciAdi.setText(kullaniciAdi);
         holder.olumlu.setText(olumlu + " Olumlu   ");

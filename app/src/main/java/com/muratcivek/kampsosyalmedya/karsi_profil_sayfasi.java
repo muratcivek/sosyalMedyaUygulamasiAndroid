@@ -60,11 +60,9 @@ private RecyclerView recyclerView;
         setContentView(R.layout.activity_karsi_profil_sayfasi);
         Intent intent = getIntent();
         gelenMail = intent.getStringExtra("mail");
-
         db = FirebaseFirestore.getInstance();
         storage = FirebaseStorage.getInstance();
         storageRef = storage.getReference();
-
         recyclerView = findViewById(R.id.gonderilerRecyclerView);
         gonderiler = new ArrayList<>();
 profilKullaniciAdi = findViewById(R.id.kullaniciAd);
@@ -74,8 +72,6 @@ profilKullaniciAdi = findViewById(R.id.kullaniciAd);
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
                 kullanicii = documentSnapshot.getData().get("Kullanici adi").toString();
-
-
             }
         });
 

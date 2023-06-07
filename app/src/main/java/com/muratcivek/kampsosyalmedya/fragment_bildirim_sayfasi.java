@@ -75,9 +75,6 @@ private RecyclerView recyclerView;
                 kullaniciAdi= task.getResult().get("Kullanici adi").toString();
             }
         });
-
-
-
         db.collection("bildirimler").document("yorum bildirimleri").collection(email)
                 .orderBy("Tarih", Query.Direction.DESCENDING)
                 .get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
@@ -88,15 +85,11 @@ private RecyclerView recyclerView;
                     gonderiBildirim=document.get("Bildirim").toString();
                     gonderiDetay = document.get("gonderiDetay").toString();
                     gonderiMail = document.get("email").toString() ;
-
-
                 if(!gonderiMail.matches(email)){
                     //Kullanıcı kendi gönderisine yorum attıysa o yorum bildirim olarak gelmeyecek.
                     bildirimModel bildirimModel = new bildirimModel(gonderiMail,gonderiDetay,gonderiBildirim);
                     bildirimler.add(bildirimModel);
                 }
-
-
 
                 }
                 adapter = new bildirimAdapter(bildirimler);

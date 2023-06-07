@@ -31,8 +31,6 @@ public class ana_sayfa extends AppCompatActivity {
         bottomNavigation.add(new MeowBottomNavigation.Model(4,R.drawable.bildirimler));
         bottomNavigation.add(new MeowBottomNavigation.Model(5,R.drawable.kullanici_adi_girisi));
 
-
-
         bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
             @Override
             public void onShowItem(MeowBottomNavigation.Model item) {
@@ -59,8 +57,8 @@ public class ana_sayfa extends AppCompatActivity {
             }
         });
 
-        bottomNavigation.setCount(3,"5"); //bildirim göstermek için
-        bottomNavigation.setCount(4,"4"); //bildirim göstermek için
+        //bottomNavigation.setCount(3,"5"); //bildirim göstermek için
+        //bottomNavigation.setCount(4,"4"); //bildirim göstermek için
         bottomNavigation.show(1,true);
 
         bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {

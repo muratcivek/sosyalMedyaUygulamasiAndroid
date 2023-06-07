@@ -56,12 +56,6 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:src="@drawable/mesaj_gonder" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
