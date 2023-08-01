@@ -1,5 +1,6 @@
 # sosyalMedyaUygulamasiAndroid
 Firebase tabanlı Java ile Android Studio'da geliştirmiş olduğum teması doğa olan, doğa severlere özel sosyal medya uygulaması.
+![Soru Görseli ](https://github.com/muratcivek/MSSQL.alistirmalar/blob/main/alistirma1/4.png)  
 
 **Uygulama için görseller aşağıda yer almaktadır.**
 
